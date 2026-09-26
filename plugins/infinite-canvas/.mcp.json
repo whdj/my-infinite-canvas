@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "infinite-canvas": {
+      "command": "npm",
+      "args": ["--prefix", "../../canvas-agent", "run", "start", "--", "mcp"],
+      "startup_timeout_sec": 20,
+      "tool_timeout_sec": 90
+    }
+  }
+}
